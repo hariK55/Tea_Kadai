@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 489ac12549cd9264ea4a08be9f1e42d1
+guid: 3778a4d76f614b94281e16b96257fce6
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -123,13 +123,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: coffee making_0
+      name: counter_sprite_0
       rect:
         serializedVersion: 2
-        x: 52
-        y: 54
-        width: 389
-        height: 648
+        x: 0
+        y: 688
+        width: 1529
+        height: 688
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -138,20 +138,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 432dd0a8dc3bd9a4f9389d8659878c48
-      internalID: 2006437463
+      spriteID: 46c4db9436d882247803dba443c3fbcf
+      internalID: -673539928
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: coffee making_1
+      name: counter_sprite_1
       rect:
         serializedVersion: 2
-        x: 501
-        y: 74
-        width: 379
-        height: 625
+        x: 1529
+        y: 688
+        width: 1529
+        height: 688
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -160,20 +160,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d90022e507991d847a87ea1329e6f66f
-      internalID: -1647164232
+      spriteID: d814c8266fbc75a40bf1c88804e7094d
+      internalID: 806471
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: coffee making_2
+      name: counter_sprite_2
       rect:
         serializedVersion: 2
-        x: 933
-        y: 71
-        width: 374
-        height: 628
+        x: 0
+        y: 0
+        width: 1529
+        height: 688
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -182,8 +182,30 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 35db33309f8fcca4f9a9ff098c1fa3a2
-      internalID: 2014340125
+      spriteID: 0ea7b6e78a5563c42b98fbe59366cb64
+      internalID: 2054131691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: counter_sprite_3
+      rect:
+        serializedVersion: 2
+        x: 1529
+        y: 0
+        width: 1529
+        height: 688
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7be8137311ace9a4895a77da27b1ec87
+      internalID: 717734256
       vertices: []
       indices: 
       edges: []
@@ -192,7 +214,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 99687767405e15f4487554fd00cd1010
+    spriteID: fa0abdf1a7f7fc34a87dbfe2d1781617
     internalID: 0
     vertices: []
     indices: 
@@ -202,11 +224,12 @@ TextureImporter:
     spriteCustomMetadata:
       entries:
       - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":2.0,"y":2.0},"gridSpriteSize":{"x":1529.0,"y":688.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      coffee making_0: 2006437463
-      coffee making_1: -1647164232
-      coffee making_2: 2014340125
+      counter_sprite_0: -673539928
+      counter_sprite_1: 806471
+      counter_sprite_2: 2054131691
+      counter_sprite_3: 717734256
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

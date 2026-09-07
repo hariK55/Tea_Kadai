@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 489ac12549cd9264ea4a08be9f1e42d1
+guid: 5e7d6ad6036ebe44389180409d1abe41
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -69,7 +69,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 1024
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -123,13 +123,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: coffee making_0
+      name: sugarcup_0
       rect:
         serializedVersion: 2
-        x: 52
-        y: 54
-        width: 389
-        height: 648
+        x: 982
+        y: 109
+        width: 884
+        height: 1132
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -138,20 +138,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 432dd0a8dc3bd9a4f9389d8659878c48
-      internalID: 2006437463
+      spriteID: acdddd456ecf3b34981bf2b6bbc58648
+      internalID: 1329285890
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: coffee making_1
+      name: sugarcup_1
       rect:
         serializedVersion: 2
-        x: 501
-        y: 74
-        width: 379
-        height: 625
+        x: 2468
+        y: 188
+        width: 104
+        height: 104
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -160,30 +160,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d90022e507991d847a87ea1329e6f66f
-      internalID: -1647164232
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: coffee making_2
-      rect:
-        serializedVersion: 2
-        x: 933
-        y: 71
-        width: 374
-        height: 628
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 35db33309f8fcca4f9a9ff098c1fa3a2
-      internalID: 2014340125
+      spriteID: 0a4b2e56135249d4b83e136eb495a6dd
+      internalID: -1300992363
       vertices: []
       indices: 
       edges: []
@@ -192,7 +170,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 99687767405e15f4487554fd00cd1010
+    spriteID: 3df0423f99e7c4f42a90ec5155385658
     internalID: 0
     vertices: []
     indices: 
@@ -204,9 +182,8 @@ TextureImporter:
       - key: SpriteEditor.SliceSettings
         value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      coffee making_0: 2006437463
-      coffee making_1: -1647164232
-      coffee making_2: 2014340125
+      sugarcup_0: 1329285890
+      sugarcup_1: -1300992363
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 7cd5935b270241f4f880d7a1f1a5c199
+guid: 55375a95804a62f42aee0683844eb9e4
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -123,13 +123,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: sugarAdding_0
+      name: sink_0
       rect:
         serializedVersion: 2
-        x: 37
-        y: 387
-        width: 213
-        height: 346
+        x: 333
+        y: 199
+        width: 1382
+        height: 1648
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -138,20 +138,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cf6a5009436b28346ba4d40271b6a081
-      internalID: -930153407
+      spriteID: bba1afbc0c53edc4892401c5c15e4b9b
+      internalID: -1341034829
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sugarAdding_1
+      name: sink_1
       rect:
         serializedVersion: 2
-        x: 264
-        y: 409
-        width: 194
-        height: 290
+        x: 1781
+        y: 250
+        width: 26
+        height: 38
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -160,20 +160,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c91efee66cd9df2488f71757b2e21992
-      internalID: 1004985481
+      spriteID: 07640d6cd5244fc4daa4d932e0067024
+      internalID: 208903642
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sugarAdding_2
+      name: sink_2
       rect:
         serializedVersion: 2
-        x: 486
-        y: 409
-        width: 184
-        height: 294
+        x: 1809
+        y: 274
+        width: 6
+        height: 14
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -182,20 +182,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e009de7a3c94a604689560fbd38cf48c
-      internalID: 2050084662
+      spriteID: 78f8c674b995ac74fbcb33678033b140
+      internalID: -1702778373
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sugarAdding_3
+      name: sink_3
       rect:
         serializedVersion: 2
-        x: 700
-        y: 411
-        width: 193
-        height: 289
+        x: 1760
+        y: 241
+        width: 20
+        height: 9
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -204,20 +204,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 73fc6766b029c1a4a9ff5f8319923bb5
-      internalID: -548483709
+      spriteID: 226650b51b74eee41b1d8ddaa91276c0
+      internalID: 1643433020
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sugarAdding_4
+      name: sink_4
       rect:
         serializedVersion: 2
-        x: 916
-        y: 411
-        width: 196
-        height: 288
+        x: 1815
+        y: 241
+        width: 41
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -226,20 +226,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 225c89db6f0df1d43ba48f4099f07047
-      internalID: 1855018938
+      spriteID: 3f9ba0642dc41954bb2a170ec3cd4b9a
+      internalID: -1278798066
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sugarAdding_5
+      name: sink_5
       rect:
         serializedVersion: 2
-        x: 1127
-        y: 387
-        width: 212
-        height: 346
+        x: 1760
+        y: 213
+        width: 38
+        height: 26
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -248,20 +248,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4051e1247f2f6a0428decda9e24a5c10
-      internalID: 1858517263
+      spriteID: b246d3dce9f570149bb9ca7ffb3cc0cf
+      internalID: -1866085429
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sugarAdding_6
+      name: sink_6
       rect:
         serializedVersion: 2
-        x: 37
-        y: 34
-        width: 213
-        height: 347
+        x: 1809
+        y: 192
+        width: 32
+        height: 41
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -270,20 +270,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f6af25ba9bbb5d54e9b08858b0ff8658
-      internalID: 22894295
+      spriteID: a845a057e8c16f64f9713841334d772e
+      internalID: -1858932972
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sugarAdding_7
+      name: sink_7
       rect:
         serializedVersion: 2
-        x: 255
-        y: 34
-        width: 211
-        height: 347
+        x: 1842
+        y: 233
+        width: 14
+        height: 6
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -292,20 +292,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1bd2d19bc1aac714ab58f25a3ba1d33d
-      internalID: 1112977880
+      spriteID: 2c0904b28a1dfc34ea27147f9635496c
+      internalID: -1820690051
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sugarAdding_8
+      name: sink_8
       rect:
         serializedVersion: 2
-        x: 473
-        y: 34
-        width: 213
-        height: 347
+        x: 1798
+        y: 192
+        width: 9
+        height: 20
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -314,74 +314,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ba87077f9de0be84ea92bd416e1fe294
-      internalID: 216106614
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sugarAdding_9
-      rect:
-        serializedVersion: 2
-        x: 691
-        y: 34
-        width: 211
-        height: 347
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 822247362bf1a774fb53c962ec4bcc21
-      internalID: -490182873
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sugarAdding_10
-      rect:
-        serializedVersion: 2
-        x: 909
-        y: 34
-        width: 212
-        height: 347
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4bebd5b0f41eb1043a476be60371a398
-      internalID: 887865836
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sugarAdding_11
-      rect:
-        serializedVersion: 2
-        x: 1127
-        y: 32
-        width: 217
-        height: 349
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0d5286924a21f9745b7eecddf2a6acff
-      internalID: -1878501774
+      spriteID: 9d3166692cfe8c34db4c986ade005bf3
+      internalID: -1151267965
       vertices: []
       indices: 
       edges: []
@@ -390,7 +324,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 4db05aa0d6986494d891cb8f61f5a45c
+    spriteID: f9cd1386685105143a8575469b6873fb
     internalID: 0
     vertices: []
     indices: 
@@ -402,18 +336,15 @@ TextureImporter:
       - key: SpriteEditor.SliceSettings
         value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      sugarAdding_0: -930153407
-      sugarAdding_1: 1004985481
-      sugarAdding_10: 887865836
-      sugarAdding_11: -1878501774
-      sugarAdding_2: 2050084662
-      sugarAdding_3: -548483709
-      sugarAdding_4: 1855018938
-      sugarAdding_5: 1858517263
-      sugarAdding_6: 22894295
-      sugarAdding_7: 1112977880
-      sugarAdding_8: 216106614
-      sugarAdding_9: -490182873
+      sink_0: -1341034829
+      sink_1: 208903642
+      sink_2: -1702778373
+      sink_3: 1643433020
+      sink_4: -1278798066
+      sink_5: -1866085429
+      sink_6: -1858932972
+      sink_7: -1820690051
+      sink_8: -1151267965
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 489ac12549cd9264ea4a08be9f1e42d1
+guid: 9828bae818c0c4943b738262dcbd046d
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -123,13 +123,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: coffee making_0
+      name: stove_0
       rect:
         serializedVersion: 2
-        x: 52
-        y: 54
-        width: 389
-        height: 648
+        x: 4
+        y: 618
+        width: 2044
+        height: 749
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -138,20 +138,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 432dd0a8dc3bd9a4f9389d8659878c48
-      internalID: 2006437463
+      spriteID: 09900b09782688f4e83a9e533b6f3dff
+      internalID: -1245930094
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: coffee making_1
+      name: stove_1
       rect:
         serializedVersion: 2
-        x: 501
-        y: 74
-        width: 379
-        height: 625
+        x: 1760
+        y: 192
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -160,30 +160,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d90022e507991d847a87ea1329e6f66f
-      internalID: -1647164232
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: coffee making_2
-      rect:
-        serializedVersion: 2
-        x: 933
-        y: 71
-        width: 374
-        height: 628
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 35db33309f8fcca4f9a9ff098c1fa3a2
-      internalID: 2014340125
+      spriteID: 1c98a05ef71f2e84bba90c43ae853f0f
+      internalID: -2093964521
       vertices: []
       indices: 
       edges: []
@@ -192,7 +170,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 99687767405e15f4487554fd00cd1010
+    spriteID: c53958b427f867448b8be10641ab7701
     internalID: 0
     vertices: []
     indices: 
@@ -202,11 +180,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries:
       - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":2.0,"y":2.0},"gridSpriteSize":{"x":1529.0,"y":688.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      coffee making_0: 2006437463
-      coffee making_1: -1647164232
-      coffee making_2: 2014340125
+      stove_0: -1245930094
+      stove_1: -2093964521
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

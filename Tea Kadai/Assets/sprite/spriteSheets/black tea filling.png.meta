@@ -126,10 +126,10 @@ TextureImporter:
       name: black tea filling_0
       rect:
         serializedVersion: 2
-        x: 37
-        y: 387
-        width: 213
-        height: 346
+        x: 48
+        y: 400
+        width: 190
+        height: 317
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -148,10 +148,10 @@ TextureImporter:
       name: black tea filling_1
       rect:
         serializedVersion: 2
-        x: 252
-        y: 386
-        width: 214
-        height: 347
+        x: 267
+        y: 399
+        width: 187
+        height: 320
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -170,10 +170,10 @@ TextureImporter:
       name: black tea filling_2
       rect:
         serializedVersion: 2
-        x: 473
-        y: 386
-        width: 212
-        height: 347
+        x: 482
+        y: 402
+        width: 193
+        height: 311
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -192,10 +192,10 @@ TextureImporter:
       name: black tea filling_3
       rect:
         serializedVersion: 2
-        x: 690
-        y: 387
-        width: 213
-        height: 346
+        x: 700
+        y: 402
+        width: 193
+        height: 308
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -214,10 +214,10 @@ TextureImporter:
       name: black tea filling_4
       rect:
         serializedVersion: 2
-        x: 908
-        y: 387
-        width: 213
-        height: 346
+        x: 922
+        y: 405
+        width: 189
+        height: 300
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -236,10 +236,10 @@ TextureImporter:
       name: black tea filling_5
       rect:
         serializedVersion: 2
-        x: 1127
-        y: 387
-        width: 212
-        height: 346
+        x: 1148
+        y: 409
+        width: 171
+        height: 294
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -368,10 +368,10 @@ TextureImporter:
       name: black tea filling_11
       rect:
         serializedVersion: 2
-        x: 1127
-        y: 32
-        width: 217
-        height: 349
+        x: 1141
+        y: 48
+        width: 184
+        height: 312
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}

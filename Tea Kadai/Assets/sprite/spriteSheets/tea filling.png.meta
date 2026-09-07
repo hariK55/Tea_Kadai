@@ -126,10 +126,10 @@ TextureImporter:
       name: tea filling_0
       rect:
         serializedVersion: 2
-        x: 37
-        y: 387
-        width: 213
-        height: 346
+        x: 49
+        y: 405
+        width: 186
+        height: 306
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -148,10 +148,10 @@ TextureImporter:
       name: tea filling_1
       rect:
         serializedVersion: 2
-        x: 255
-        y: 387
-        width: 211
-        height: 346
+        x: 268
+        y: 412
+        width: 186
+        height: 294
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -170,10 +170,10 @@ TextureImporter:
       name: tea filling_2
       rect:
         serializedVersion: 2
-        x: 473
-        y: 387
-        width: 212
-        height: 346
+        x: 484
+        y: 397
+        width: 186
+        height: 311
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -192,10 +192,10 @@ TextureImporter:
       name: tea filling_3
       rect:
         serializedVersion: 2
-        x: 691
-        y: 387
-        width: 212
-        height: 346
+        x: 708
+        y: 400
+        width: 181
+        height: 294
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -214,10 +214,10 @@ TextureImporter:
       name: tea filling_4
       rect:
         serializedVersion: 2
-        x: 908
-        y: 387
-        width: 213
-        height: 346
+        x: 924
+        y: 408
+        width: 185
+        height: 282
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -236,10 +236,10 @@ TextureImporter:
       name: tea filling_5
       rect:
         serializedVersion: 2
-        x: 1127
-        y: 387
-        width: 212
-        height: 346
+        x: 1145
+        y: 406
+        width: 179
+        height: 282
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
