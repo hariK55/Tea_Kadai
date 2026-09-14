@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Idle
+  m_Name: idleBoilerstrainer
   serializedVersion: 7
   m_Legacy: 0
   m_Compressed: 0
@@ -21,9 +21,9 @@ AnimationClip:
   - serializedVersion: 2
     curve:
     - time: 0
-      value: {fileID: 21300000, guid: 2a20c82514a22ce47bd378d439f44ade, type: 2}
+      value: {fileID: -99523429, guid: 53231d40b244757439150ae49962d74b, type: 3}
     - time: 0.083333336
-      value: {fileID: 285487225, guid: 3517a6c9fbb59a54ba944d4ee27ccd46, type: 3}
+      value: {fileID: 1736854871, guid: 53231d40b244757439150ae49962d74b, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
@@ -46,8 +46,8 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     pptrCurveMapping:
-    - {fileID: 21300000, guid: 2a20c82514a22ce47bd378d439f44ade, type: 2}
-    - {fileID: 285487225, guid: 3517a6c9fbb59a54ba944d4ee27ccd46, type: 3}
+    - {fileID: -99523429, guid: 53231d40b244757439150ae49962d74b, type: 3}
+    - {fileID: 1736854871, guid: 53231d40b244757439150ae49962d74b, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
@@ -58,7 +58,7 @@ AnimationClip:
     m_Level: 0
     m_CycleOffset: 0
     m_HasAdditiveReferencePose: 0
-    m_LoopTime: 0
+    m_LoopTime: 1
     m_LoopBlend: 0
     m_LoopBlendOrientation: 0
     m_LoopBlendPositionY: 0

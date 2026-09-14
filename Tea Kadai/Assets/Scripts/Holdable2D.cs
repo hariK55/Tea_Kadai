@@ -1,8 +1,11 @@
+using System;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
 public class Holdable2D : MonoBehaviour
 {
+    public event Action OnHold;
+    public event Action OnRelease;
     [Header("Input")]
     [SerializeField] private InputActionReference pointerPosition;
     [SerializeField] private InputActionReference pointerPress;
@@ -18,10 +21,16 @@ public class Holdable2D : MonoBehaviour
     private Vector3 offset;
 
     private SpriteRenderer spriteRenderer;
+
     private int originalSortingOrder;
+    private static Holdable2D currentlyHeldObject;
+
+    public static Holdable2D Instance { get; private set; }
 
     private void Awake()
     {
+        Instance= this;
+
         mainCamera = Camera.main;
 
         spriteRenderer = GetComponent<SpriteRenderer>();
@@ -55,11 +64,18 @@ public class Holdable2D : MonoBehaviour
         if (!isHolding)
             return;
 
+        if(currentlyHeldObject != this)
+            return;
+
         MoveObject();
     }
 
     private void OnPressStarted(InputAction.CallbackContext context)
     {
+        // Another object is already being held
+        if (currentlyHeldObject != null)
+            return;
+
         Vector3 pointerWorldPosition = GetPointerWorldPosition();
 
         // Check whether the player pressed this object
@@ -73,21 +89,30 @@ public class Holdable2D : MonoBehaviour
 
         isHolding = true;
 
+        // Register this object as the currently held object
+        currentlyHeldObject = this;
+
         // Keep the object centered relative to where the player touched it
         offset = transform.position - pointerWorldPosition;
 
         // Bring glass in front
         if (spriteRenderer != null)
         {
-            spriteRenderer.sortingOrder = 100;
+            spriteRenderer.sortingOrder = 3;
         }
-    }
 
+        OnHold?.Invoke();
+    }
     private void OnPressCanceled(InputAction.CallbackContext context)
     {
-        transform.position = new Vector3(centreTable.position.x, centreTable.position.y, transform.position.z);
         if (!isHolding)
             return;
+
+        transform.position = new Vector3(
+            centreTable.position.x,
+            centreTable.position.y,
+            transform.position.z
+        );
 
         isHolding = false;
 
@@ -95,6 +120,14 @@ public class Holdable2D : MonoBehaviour
         {
             spriteRenderer.sortingOrder = originalSortingOrder;
         }
+
+        // Allow another object to be held
+        if (currentlyHeldObject == this)
+        {
+            currentlyHeldObject = null;
+        }
+
+        OnRelease?.Invoke();
     }
 
     private void MoveObject()
@@ -129,5 +162,10 @@ public class Holdable2D : MonoBehaviour
         worldPosition.z = transform.position.z;
 
         return worldPosition;
+    }
+
+    public Holdable2D IsHolding()
+    {
+        return currentlyHeldObject;
     }
 }

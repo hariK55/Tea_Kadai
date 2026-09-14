@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: a5beb6c42583f214dbc92947572e00bb
+guid: f71d7ba6666e6464fbe4756c19d9d673
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -123,13 +123,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: milk filling_0
+      name: IS_0
       rect:
         serializedVersion: 2
-        x: 46
-        y: 400
-        width: 196
-        height: 320
+        x: 0
+        y: 931
+        width: 602
+        height: 818
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -138,20 +138,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b6e5b2feaee84c3429c198075b5be5cb
-      internalID: -1169911550
+      spriteID: e275ba393f37ca6458ee70c44d3d434d
+      internalID: 387024576
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: milk filling_1
+      name: IS_1
       rect:
         serializedVersion: 2
-        x: 264
-        y: 402
-        width: 188
-        height: 320
+        x: 713
+        y: 880
+        width: 597
+        height: 880
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -160,20 +160,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9bec702008663e543aca03b62401e521
-      internalID: 1316738392
+      spriteID: a4e89b7d0cc27bd499e80d8361f8721c
+      internalID: 1267515185
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: milk filling_2
+      name: IS_2
       rect:
         serializedVersion: 2
-        x: 486
-        y: 400
-        width: 194
-        height: 320
+        x: 1194
+        y: 880
+        width: 597
+        height: 880
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -182,20 +182,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3400c3fe914e52a48ba1891c0375de3e
-      internalID: 163603702
+      spriteID: bf3f4c7103de2d04d97ca7d552ed894b
+      internalID: 2140066147
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: milk filling_3
+      name: IS_3
       rect:
         serializedVersion: 2
-        x: 706
-        y: 408
-        width: 186
-        height: 312
+        x: 1791
+        y: 880
+        width: 597
+        height: 880
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -204,20 +204,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a77681b8e4a36d94da69d11963bb4154
-      internalID: -1546730533
+      spriteID: 1be1906130eaf40478fefc3eb59890f3
+      internalID: 432962486
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: milk filling_4
+      name: IS_4
       rect:
         serializedVersion: 2
-        x: 918
-        y: 411
-        width: 197
-        height: 308
+        x: 0
+        y: 0
+        width: 597
+        height: 880
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -226,20 +226,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 41827a4fbe5c6b94ea0f208cddde80c4
-      internalID: -960270860
+      spriteID: 99ef3de93bf46064bbf47e1d73a46e94
+      internalID: 922178998
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: milk filling_5
+      name: IS_5
       rect:
         serializedVersion: 2
-        x: 1134
-        y: 411
-        width: 191
-        height: 308
+        x: 597
+        y: 0
+        width: 597
+        height: 880
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -248,20 +248,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 448d8e8fbbc8f234992d4123bb1f02ba
-      internalID: -1510811799
+      spriteID: 09843ec1863ae5f4f84fcdea043e2057
+      internalID: 917974955
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: milk filling_6
+      name: IS_6
       rect:
         serializedVersion: 2
-        x: 37
-        y: 34
-        width: 213
-        height: 347
+        x: 1194
+        y: 0
+        width: 597
+        height: 880
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -270,20 +270,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fc16adc855797de4fb9ecae451626c5c
-      internalID: 557196792
+      spriteID: a81bd46d3919cd242bc938270b397d99
+      internalID: -1687811693
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: milk filling_7
+      name: IS_7
       rect:
         serializedVersion: 2
-        x: 255
-        y: 33
-        width: 212
-        height: 348
+        x: 1708
+        y: 180
+        width: 680
+        height: 575
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -292,96 +292,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 18f339b5defc6c94590a4b4487666ad5
-      internalID: -674748279
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: milk filling_8
-      rect:
-        serializedVersion: 2
-        x: 473
-        y: 34
-        width: 214
-        height: 347
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d5e1d578f9ce7a14ba4ebe8cd80c0f2a
-      internalID: 1190452236
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: milk filling_9
-      rect:
-        serializedVersion: 2
-        x: 690
-        y: 34
-        width: 215
-        height: 350
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 95df548c5efa7a44eac2f76c3ce937c5
-      internalID: 759595189
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: milk filling_10
-      rect:
-        serializedVersion: 2
-        x: 910
-        y: 34
-        width: 211
-        height: 348
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bbf9602657435e943a4fd061f887b88b
-      internalID: 1314212642
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: milk filling_11
-      rect:
-        serializedVersion: 2
-        x: 1127
-        y: 32
-        width: 217
-        height: 349
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 55c4a5cd70dcccd42be6cfdfb8cd866a
-      internalID: -697591049
+      spriteID: 5d9e6a93d8d1a5249a4b8f0eed1e4d69
+      internalID: 1470958751
       vertices: []
       indices: 
       edges: []
@@ -390,7 +302,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 2505422f6cf98584d935378565165099
+    spriteID: 6a3c7d5a6674be943a86f5f6c01c2f69
     internalID: 0
     vertices: []
     indices: 
@@ -400,20 +312,16 @@ TextureImporter:
     spriteCustomMetadata:
       entries:
       - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":4.0,"y":2.0},"gridSpriteSize":{"x":597.0,"y":880.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      milk filling_0: -1169911550
-      milk filling_1: 1316738392
-      milk filling_10: 1314212642
-      milk filling_11: -697591049
-      milk filling_2: 163603702
-      milk filling_3: -1546730533
-      milk filling_4: -960270860
-      milk filling_5: -1510811799
-      milk filling_6: 557196792
-      milk filling_7: -674748279
-      milk filling_8: 1190452236
-      milk filling_9: 759595189
+      IS_0: 387024576
+      IS_1: 1267515185
+      IS_2: 2140066147
+      IS_3: 432962486
+      IS_4: 922178998
+      IS_5: 917974955
+      IS_6: -1687811693
+      IS_7: 1470958751
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
