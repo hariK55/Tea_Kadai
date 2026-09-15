@@ -15,7 +15,8 @@ public class Glass : MonoBehaviour
     private float rayDistance=0.5f;
    [SerializeField] private LayerMask detectionLayer;
 
-
+    private Sugar Sugar;
+    private int sugarCount = 0;
 
     private void Awake()
     {
@@ -28,6 +29,21 @@ public class Glass : MonoBehaviour
         strainer.Onpour += FillTication;
         strainer.OnStopPour += OnStopPour;
         Milk.Instance.milkAdded += OnmilkAdded;
+
+       Sugar= Sugar.Instance;
+        Sugar.OnSugarAdded += Sugar_OnSugarAdded; 
+ 
+    }
+
+    private void Sugar_OnSugarAdded()
+    {
+        if(sugarCount >= 3)
+        {
+            Debug.Log("Maximum sugar count reached.");
+            return;
+        }
+        sugarCount++;
+        glassAnimator.SetInteger("sugarCount", sugarCount);
     }
 
     private void OnmilkAdded()
