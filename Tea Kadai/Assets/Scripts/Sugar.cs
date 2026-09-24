@@ -37,10 +37,10 @@ public class Sugar : MonoBehaviour
         if (!pointerButton.action.WasPressedThisFrame())
             return;
 
-        if (pointerButton.action.WasPressedThisFrame())
+        /*if (pointerButton.action.WasPressedThisFrame())
         {
             Debug.Log("POINTER BUTTON PRESSED");
-        }
+        }*/
 
         Vector2 screenPosition = pointerPosition.action.ReadValue<Vector2>();
 
@@ -52,6 +52,13 @@ public class Sugar : MonoBehaviour
         {
             Debug.Log("HIT: " + hit.gameObject.name);
             Debug.Log("SugarBox script object: " + gameObject.name);
+
+            if (hit.gameObject == gameObject)
+            {
+                Debug.Log("Sugar Box Pressed!");
+
+                OnSugarAdded?.Invoke();
+            }
         }
         else
         {
@@ -59,12 +66,7 @@ public class Sugar : MonoBehaviour
         }
         if (hit != null )
         {
-            if(hit.gameObject == gameObject)
-            {
-                Debug.Log("Sugar Box Pressed!");
-
-                OnSugarAdded?.Invoke();
-            }
+           
         }
     }
 

@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 48334b72c694db648a1c2e8d51bd8eb3, type: 3}
   m_Name: TeaNoSugarSO
   m_EditorClassIdentifier: Assembly-CSharp::RecipeSO
-  recipeName: 'TeaNoSugarSO '
+  recipeName: 'Tea-NoSugar '
   ticationAmount: 1
   sugarSpoons: 0
   Milk: 1
+  drinkSprite: {fileID: -725923758, guid: 7e8393a702525bd4ca00055c00496361, type: 3}

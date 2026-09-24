@@ -6,31 +6,34 @@ public class Holdable2D : MonoBehaviour
 {
     public event Action OnHold;
     public event Action OnRelease;
+
     [Header("Input")]
     [SerializeField] private InputActionReference pointerPosition;
     [SerializeField] private InputActionReference pointerPress;
 
-    [SerializeField]
-    private Transform centreTable;
+    [Header("Position")]
+    [SerializeField] private Transform centreTable;
+
     [Header("Settings")]
     [SerializeField] private float floatHeight = 0.5f;
 
     private Camera mainCamera;
 
     private bool isHolding;
+    private bool canMove;
+
     private Vector3 offset;
 
     private SpriteRenderer spriteRenderer;
-
     private int originalSortingOrder;
+
+    // Only ONE Holdable2D can be held at a time
     private static Holdable2D currentlyHeldObject;
 
-    public static Holdable2D Instance { get; private set; }
+    private GlassContents glassContents;
 
     private void Awake()
     {
-        Instance= this;
-
         mainCamera = Camera.main;
 
         spriteRenderer = GetComponent<SpriteRenderer>();
@@ -39,6 +42,10 @@ public class Holdable2D : MonoBehaviour
         {
             originalSortingOrder = spriteRenderer.sortingOrder;
         }
+
+        glassContents = GetComponent<GlassContents>();
+
+        canMove = true;
     }
 
     private void OnEnable()
@@ -64,11 +71,18 @@ public class Holdable2D : MonoBehaviour
         if (!isHolding)
             return;
 
-        if(currentlyHeldObject != this)
+        if (currentlyHeldObject != this)
+            return;
+
+        if (!canMove)
             return;
 
         MoveObject();
     }
+
+    // =========================================================
+    // PRESS
+    // =========================================================
 
     private void OnPressStarted(InputAction.CallbackContext context)
     {
@@ -76,10 +90,15 @@ public class Holdable2D : MonoBehaviour
         if (currentlyHeldObject != null)
             return;
 
-        Vector3 pointerWorldPosition = GetPointerWorldPosition();
+        // This object is temporarily locked
+        if (!canMove)
+            return;
 
-        // Check whether the player pressed this object
-        Collider2D hit = Physics2D.OverlapPoint(pointerWorldPosition);
+        Vector3 pointerWorldPosition =
+            GetPointerWorldPosition();
+
+        Collider2D hit =
+            Physics2D.OverlapPoint(pointerWorldPosition);
 
         if (hit == null)
             return;
@@ -87,15 +106,15 @@ public class Holdable2D : MonoBehaviour
         if (hit.gameObject != gameObject)
             return;
 
+        // Start holding
         isHolding = true;
 
-        // Register this object as the currently held object
         currentlyHeldObject = this;
 
-        // Keep the object centered relative to where the player touched it
-        offset = transform.position - pointerWorldPosition;
+        offset =
+            transform.position -
+            pointerWorldPosition;
 
-        // Bring glass in front
         if (spriteRenderer != null)
         {
             spriteRenderer.sortingOrder = 3;
@@ -103,11 +122,147 @@ public class Holdable2D : MonoBehaviour
 
         OnHold?.Invoke();
     }
+
+    // =========================================================
+    // NORMAL RELEASE
+    // =========================================================
+
     private void OnPressCanceled(InputAction.CallbackContext context)
     {
         if (!isHolding)
             return;
 
+        // If locked, don't release.
+        // Example: strainer is pouring.
+        if (!canMove)
+            return;
+
+        // Normal glass behavior:
+        // return to centre table.
+        if (centreTable != null)
+        {
+            transform.position = new Vector3(
+                centreTable.position.x,
+                centreTable.position.y,
+                transform.position.z
+            );
+        }
+
+        ForceRelease();
+    }
+
+    // =========================================================
+    // FORCE RELEASE
+    // =========================================================
+
+    public void ForceRelease()
+    {
+        if (!isHolding)
+            return;
+
+        isHolding = false;
+
+        if (spriteRenderer != null)
+        {
+            spriteRenderer.sortingOrder =
+                originalSortingOrder;
+        }
+
+        if (currentlyHeldObject == this)
+        {
+            currentlyHeldObject = null;
+        }
+
+        // All release logic goes through this event
+        OnRelease?.Invoke();
+    }
+
+    // =========================================================
+    // MOVEMENT
+    // =========================================================
+
+    private void MoveObject()
+    {
+        Vector3 pointerWorldPosition =
+            GetPointerWorldPosition();
+
+        Vector3 targetPosition =
+            pointerWorldPosition + offset;
+
+        targetPosition.y += floatHeight;
+
+        targetPosition.z =
+            transform.position.z;
+
+        transform.position =
+            targetPosition;
+    }
+
+    // =========================================================
+    // POINTER POSITION
+    // =========================================================
+
+    private Vector3 GetPointerWorldPosition()
+    {
+        Vector2 screenPosition =
+            pointerPosition.action.ReadValue<Vector2>();
+
+        Vector3 worldPosition =
+            mainCamera.ScreenToWorldPoint(
+                new Vector3(
+                    screenPosition.x,
+                    screenPosition.y,
+                    Mathf.Abs(
+                        mainCamera.transform.position.z
+                    )
+                )
+            );
+
+        worldPosition.z =
+            transform.position.z;
+
+        return worldPosition;
+    }
+
+    // =========================================================
+    // PUBLIC FUNCTIONS
+    // =========================================================
+
+    public bool IsThisObjectBeingHeld()
+    {
+        return isHolding &&
+               currentlyHeldObject == this;
+    }
+
+    public bool IsMovementLocked()
+    {
+        return !canMove;
+    }
+
+    public void cantMove()
+    {
+        canMove = false;
+    }
+
+    public void CanMove()
+    {
+        canMove = true;
+    }
+
+    public void getBack()
+    {
+        if (centreTable == null)
+            return;
+
+        transform.position = new Vector3(
+            centreTable.position.x,
+            centreTable.position.y,
+            transform.position.z
+        );
+    }
+
+    public void MoveToCentre()
+    {
         transform.position = new Vector3(
             centreTable.position.x,
             centreTable.position.y,
@@ -121,7 +276,7 @@ public class Holdable2D : MonoBehaviour
             spriteRenderer.sortingOrder = originalSortingOrder;
         }
 
-        // Allow another object to be held
+        // Release this object so another object can be held
         if (currentlyHeldObject == this)
         {
             currentlyHeldObject = null;
@@ -129,43 +284,6 @@ public class Holdable2D : MonoBehaviour
 
         OnRelease?.Invoke();
     }
-
-    private void MoveObject()
-    {
-        Vector3 pointerWorldPosition = GetPointerWorldPosition();
-
-        Vector3 targetPosition =
-            pointerWorldPosition + offset;
-
-        // Make the glass float slightly above the desk
-        targetPosition.y += floatHeight;
-
-        // Keep original Z
-        targetPosition.z = transform.position.z;
-
-        transform.position = targetPosition;
-    }
-
-    private Vector3 GetPointerWorldPosition()
-    {
-        Vector2 screenPosition = pointerPosition.action.ReadValue<Vector2>();
-
-        Vector3 worldPosition =
-            mainCamera.ScreenToWorldPoint(
-                new Vector3(
-                    screenPosition.x,
-                    screenPosition.y,
-                    Mathf.Abs(mainCamera.transform.position.z)
-                )
-            );
-
-        worldPosition.z = transform.position.z;
-
-        return worldPosition;
-    }
-
-    public Holdable2D IsHolding()
-    {
-        return currentlyHeldObject;
-    }
 }
+
+

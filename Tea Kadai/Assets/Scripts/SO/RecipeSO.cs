@@ -10,4 +10,7 @@ public class RecipeSO : ScriptableObject
     public int sugarSpoons;
 
     public int Milk;
+
+    [Header("Visual")]
+    public Sprite drinkSprite;
 }
