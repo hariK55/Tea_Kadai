@@ -694,6 +694,16 @@ MonoBehaviour:
   recipes:
   - {fileID: 11400000, guid: 2f916c40f87ab2d45bbac3fc96cf6e96, type: 2}
   - {fileID: 11400000, guid: 3cd911ac909dee145a8aab85142211e7, type: 2}
+  - {fileID: 11400000, guid: 0400b994507cbdf48994d6885c9d9e69, type: 2}
+  - {fileID: 11400000, guid: 659fcbbd7d435d947ad06d69ee1ca61b, type: 2}
+  - {fileID: 11400000, guid: 8fb4f2ece053401489fdca11fea1964e, type: 2}
+  - {fileID: 11400000, guid: c93daca2bf445164a9fb90fcb1b01cc0, type: 2}
+  - {fileID: 11400000, guid: 2f8f849b666655841bfc780e105ba42a, type: 2}
+  - {fileID: 11400000, guid: 117d9546cba37454f9b7c6595f69ab00, type: 2}
+  - {fileID: 11400000, guid: ab280bb3ebcb34a4bb8d4322cceb2225, type: 2}
+  - {fileID: 11400000, guid: 18f6719840191f74c90a61e82912d4d7, type: 2}
+  - {fileID: 11400000, guid: 48f95eb3a69025b40b1a637a54450340, type: 2}
+  - {fileID: 11400000, guid: 36b6f5a39258deb47920b0f32044ccbd, type: 2}
   maximumCustomers: 4
 --- !u!4 &293159477
 Transform:
